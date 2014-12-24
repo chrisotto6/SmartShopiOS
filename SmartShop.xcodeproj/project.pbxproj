@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		838C5A971A3D77A600F29B0B /* ItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 838C5A961A3D77A600F29B0B /* ItemManager.m */; };
+		839157F31A3D6C40007FC8E2 /* ItemBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 839157F21A3D6C40007FC8E2 /* ItemBuilder.m */; };
+		8391E1051A032D480010E4DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391E1041A032D480010E4DB /* Foundation.framework */; };
+		8391E1071A032D480010E4DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391E1061A032D480010E4DB /* CoreGraphics.framework */; };
+		8391E1091A032D480010E4DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391E1081A032D480010E4DB /* UIKit.framework */; };
+		8391E10F1A032D480010E4DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8391E10D1A032D480010E4DB /* InfoPlist.strings */; };
+		8391E1111A032D480010E4DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8391E1101A032D480010E4DB /* main.m */; };
+		8391E1151A032D480010E4DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8391E1141A032D480010E4DB /* AppDelegate.m */; };
+		8391E1181A032D480010E4DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8391E1161A032D480010E4DB /* Main.storyboard */; };
+		8391E11B1A032D480010E4DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8391E11A1A032D480010E4DB /* ViewController.m */; };
+		8391E11D1A032D480010E4DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8391E11C1A032D480010E4DB /* Images.xcassets */; };
+		8391E1241A032D480010E4DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391E1231A032D480010E4DB /* XCTest.framework */; };
+		8391E1251A032D490010E4DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391E1041A032D480010E4DB /* Foundation.framework */; };
+		8391E1261A032D490010E4DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391E1081A032D480010E4DB /* UIKit.framework */; };
+		8391E12E1A032D490010E4DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8391E12C1A032D490010E4DB /* InfoPlist.strings */; };
+		8391E1301A032D490010E4DB /* SmartShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8391E12F1A032D490010E4DB /* SmartShopTests.m */; };
+		8391E13A1A032D6D0010E4DB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391E1391A032D6D0010E4DB /* libsqlite3.dylib */; };
+		8391E13D1A032DB70010E4DB /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8391E13C1A032DB70010E4DB /* DBManager.m */; };
+		839355481A3D472B002B1329 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839355471A3D472B002B1329 /* InfoViewController.m */; };
+		8393554D1A3D5D4F002B1329 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 8393554C1A3D5D4F002B1329 /* Item.m */; };
+		839355511A3D5EF6002B1329 /* ItemCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 839355501A3D5EF6002B1329 /* ItemCommunicator.m */; };
+		839FD7921A3D8076005CBEA9 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839FD7911A3D8076005CBEA9 /* CaptureViewController.m */; };
+		83AB1F311A3D0506009F9886 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AB1F301A3D0506009F9886 /* ItemViewController.m */; };
+		83BF779D1A31799A00E66057 /* smartShop.db in Resources */ = {isa = PBXBuildFile; fileRef = 83BF779C1A31799A00E66057 /* smartShop.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8391E1271A032D490010E4DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8391E0F91A032D480010E4DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8391E1001A032D480010E4DB;
+			remoteInfo = SmartShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		838C5A951A3D77A600F29B0B /* ItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemManager.h; sourceTree = "<group>"; };
+		838C5A961A3D77A600F29B0B /* ItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemManager.m; sourceTree = "<group>"; };
+		839157F11A3D6C40007FC8E2 /* ItemBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemBuilder.h; sourceTree = "<group>"; };
+		839157F21A3D6C40007FC8E2 /* ItemBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemBuilder.m; sourceTree = "<group>"; };
+		839157F41A3D74E4007FC8E2 /* ItemManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemManagerDelegate.h; sourceTree = "<group>"; };
+		8391E1011A032D480010E4DB /* SmartShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8391E1041A032D480010E4DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8391E1061A032D480010E4DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8391E1081A032D480010E4DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8391E10C1A032D480010E4DB /* SmartShop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartShop-Info.plist"; sourceTree = "<group>"; };
+		8391E10E1A032D480010E4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8391E1101A032D480010E4DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8391E1121A032D480010E4DB /* SmartShop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartShop-Prefix.pch"; sourceTree = "<group>"; };
+		8391E1131A032D480010E4DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8391E1141A032D480010E4DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8391E1171A032D480010E4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8391E1191A032D480010E4DB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8391E11A1A032D480010E4DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8391E11C1A032D480010E4DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8391E1221A032D480010E4DB /* SmartShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8391E1231A032D480010E4DB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8391E12B1A032D490010E4DB /* SmartShopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartShopTests-Info.plist"; sourceTree = "<group>"; };
+		8391E12D1A032D490010E4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8391E12F1A032D490010E4DB /* SmartShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartShopTests.m; sourceTree = "<group>"; };
+		8391E1391A032D6D0010E4DB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8391E13B1A032DB70010E4DB /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		8391E13C1A032DB70010E4DB /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		839355461A3D472B002B1329 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		839355471A3D472B002B1329 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		8393554B1A3D5D4F002B1329 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		8393554C1A3D5D4F002B1329 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		8393554E1A3D5DE4002B1329 /* ItemCommunicatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCommunicatorDelegate.h; sourceTree = "<group>"; };
+		8393554F1A3D5EF6002B1329 /* ItemCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCommunicator.h; sourceTree = "<group>"; };
+		839355501A3D5EF6002B1329 /* ItemCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCommunicator.m; sourceTree = "<group>"; };
+		839FD7901A3D8076005CBEA9 /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
+		839FD7911A3D8076005CBEA9 /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
+		83AB1F2F1A3D0506009F9886 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		83AB1F301A3D0506009F9886 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
+		83BF779C1A31799A00E66057 /* smartShop.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = smartShop.db; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8391E0FE1A032D480010E4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8391E13A1A032D6D0010E4DB /* libsqlite3.dylib in Frameworks */,
+				8391E1071A032D480010E4DB /* CoreGraphics.framework in Frameworks */,
+				8391E1091A032D480010E4DB /* UIKit.framework in Frameworks */,
+				8391E1051A032D480010E4DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8391E11F1A032D480010E4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8391E1241A032D480010E4DB /* XCTest.framework in Frameworks */,
+				8391E1261A032D490010E4DB /* UIKit.framework in Frameworks */,
+				8391E1251A032D490010E4DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8391E0F81A032D480010E4DB = {
+			isa = PBXGroup;
+			children = (
+				8393554B1A3D5D4F002B1329 /* Item.h */,
+				8393554E1A3D5DE4002B1329 /* ItemCommunicatorDelegate.h */,
+				8393554F1A3D5EF6002B1329 /* ItemCommunicator.h */,
+				839355501A3D5EF6002B1329 /* ItemCommunicator.m */,
+				839157F11A3D6C40007FC8E2 /* ItemBuilder.h */,
+				839157F21A3D6C40007FC8E2 /* ItemBuilder.m */,
+				839157F41A3D74E4007FC8E2 /* ItemManagerDelegate.h */,
+				838C5A951A3D77A600F29B0B /* ItemManager.h */,
+				838C5A961A3D77A600F29B0B /* ItemManager.m */,
+				8393554C1A3D5D4F002B1329 /* Item.m */,
+				83BF779C1A31799A00E66057 /* smartShop.db */,
+				8391E13B1A032DB70010E4DB /* DBManager.h */,
+				8391E13C1A032DB70010E4DB /* DBManager.m */,
+				8391E10A1A032D480010E4DB /* SmartShop */,
+				8391E1291A032D490010E4DB /* SmartShopTests */,
+				8391E1031A032D480010E4DB /* Frameworks */,
+				8391E1021A032D480010E4DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8391E1021A032D480010E4DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8391E1011A032D480010E4DB /* SmartShop.app */,
+				8391E1221A032D480010E4DB /* SmartShopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8391E1031A032D480010E4DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8391E1391A032D6D0010E4DB /* libsqlite3.dylib */,
+				8391E1041A032D480010E4DB /* Foundation.framework */,
+				8391E1061A032D480010E4DB /* CoreGraphics.framework */,
+				8391E1081A032D480010E4DB /* UIKit.framework */,
+				8391E1231A032D480010E4DB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8391E10A1A032D480010E4DB /* SmartShop */ = {
+			isa = PBXGroup;
+			children = (
+				8391E1131A032D480010E4DB /* AppDelegate.h */,
+				8391E1141A032D480010E4DB /* AppDelegate.m */,
+				8391E1161A032D480010E4DB /* Main.storyboard */,
+				839355461A3D472B002B1329 /* InfoViewController.h */,
+				839FD7901A3D8076005CBEA9 /* CaptureViewController.h */,
+				839FD7911A3D8076005CBEA9 /* CaptureViewController.m */,
+				839355471A3D472B002B1329 /* InfoViewController.m */,
+				83AB1F2F1A3D0506009F9886 /* ItemViewController.h */,
+				83AB1F301A3D0506009F9886 /* ItemViewController.m */,
+				8391E1191A032D480010E4DB /* ViewController.h */,
+				8391E11A1A032D480010E4DB /* ViewController.m */,
+				8391E11C1A032D480010E4DB /* Images.xcassets */,
+				8391E10B1A032D480010E4DB /* Supporting Files */,
+			);
+			path = SmartShop;
+			sourceTree = "<group>";
+		};
+		8391E10B1A032D480010E4DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8391E10C1A032D480010E4DB /* SmartShop-Info.plist */,
+				8391E10D1A032D480010E4DB /* InfoPlist.strings */,
+				8391E1101A032D480010E4DB /* main.m */,
+				8391E1121A032D480010E4DB /* SmartShop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8391E1291A032D490010E4DB /* SmartShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				8391E12F1A032D490010E4DB /* SmartShopTests.m */,
+				8391E12A1A032D490010E4DB /* Supporting Files */,
+			);
+			path = SmartShopTests;
+			sourceTree = "<group>";
+		};
+		8391E12A1A032D490010E4DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8391E12B1A032D490010E4DB /* SmartShopTests-Info.plist */,
+				8391E12C1A032D490010E4DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8391E1001A032D480010E4DB /* SmartShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8391E1331A032D490010E4DB /* Build configuration list for PBXNativeTarget "SmartShop" */;
+			buildPhases = (
+				8391E0FD1A032D480010E4DB /* Sources */,
+				8391E0FE1A032D480010E4DB /* Frameworks */,
+				8391E0FF1A032D480010E4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartShop;
+			productName = SmartShop;
+			productReference = 8391E1011A032D480010E4DB /* SmartShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8391E1211A032D480010E4DB /* SmartShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8391E1361A032D490010E4DB /* Build configuration list for PBXNativeTarget "SmartShopTests" */;
+			buildPhases = (
+				8391E11E1A032D480010E4DB /* Sources */,
+				8391E11F1A032D480010E4DB /* Frameworks */,
+				8391E1201A032D480010E4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8391E1281A032D490010E4DB /* PBXTargetDependency */,
+			);
+			name = SmartShopTests;
+			productName = SmartShopTests;
+			productReference = 8391E1221A032D480010E4DB /* SmartShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8391E0F91A032D480010E4DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ChrisOtto;
+				TargetAttributes = {
+					8391E1211A032D480010E4DB = {
+						TestTargetID = 8391E1001A032D480010E4DB;
+					};
+				};
+			};
+			buildConfigurationList = 8391E0FC1A032D480010E4DB /* Build configuration list for PBXProject "SmartShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8391E0F81A032D480010E4DB;
+			productRefGroup = 8391E1021A032D480010E4DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8391E1001A032D480010E4DB /* SmartShop */,
+				8391E1211A032D480010E4DB /* SmartShopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8391E0FF1A032D480010E4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8391E11D1A032D480010E4DB /* Images.xcassets in Resources */,
+				83BF779D1A31799A00E66057 /* smartShop.db in Resources */,
+				8391E10F1A032D480010E4DB /* InfoPlist.strings in Resources */,
+				8391E1181A032D480010E4DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8391E1201A032D480010E4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8391E12E1A032D490010E4DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8391E0FD1A032D480010E4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8391E11B1A032D480010E4DB /* ViewController.m in Sources */,
+				839157F31A3D6C40007FC8E2 /* ItemBuilder.m in Sources */,
+				8391E1151A032D480010E4DB /* AppDelegate.m in Sources */,
+				839355481A3D472B002B1329 /* InfoViewController.m in Sources */,
+				83AB1F311A3D0506009F9886 /* ItemViewController.m in Sources */,
+				8391E1111A032D480010E4DB /* main.m in Sources */,
+				838C5A971A3D77A600F29B0B /* ItemManager.m in Sources */,
+				839FD7921A3D8076005CBEA9 /* CaptureViewController.m in Sources */,
+				839355511A3D5EF6002B1329 /* ItemCommunicator.m in Sources */,
+				8393554D1A3D5D4F002B1329 /* Item.m in Sources */,
+				8391E13D1A032DB70010E4DB /* DBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8391E11E1A032D480010E4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8391E1301A032D490010E4DB /* SmartShopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8391E1281A032D490010E4DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8391E1001A032D480010E4DB /* SmartShop */;
+			targetProxy = 8391E1271A032D490010E4DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8391E10D1A032D480010E4DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8391E10E1A032D480010E4DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8391E1161A032D480010E4DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8391E1171A032D480010E4DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8391E12C1A032D490010E4DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8391E12D1A032D490010E4DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8391E1311A032D490010E4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8391E1321A032D490010E4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8391E1341A032D490010E4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartShop/SmartShop-Prefix.pch";
+				INFOPLIST_FILE = "SmartShop/SmartShop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8391E1351A032D490010E4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartShop/SmartShop-Prefix.pch";
+				INFOPLIST_FILE = "SmartShop/SmartShop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8391E1371A032D490010E4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartShop.app/SmartShop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartShop/SmartShop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmartShopTests/SmartShopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8391E1381A032D490010E4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartShop.app/SmartShop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartShop/SmartShop-Prefix.pch";
+				INFOPLIST_FILE = "SmartShopTests/SmartShopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8391E0FC1A032D480010E4DB /* Build configuration list for PBXProject "SmartShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8391E1311A032D490010E4DB /* Debug */,
+				8391E1321A032D490010E4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8391E1331A032D490010E4DB /* Build configuration list for PBXNativeTarget "SmartShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8391E1341A032D490010E4DB /* Debug */,
+				8391E1351A032D490010E4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8391E1361A032D490010E4DB /* Build configuration list for PBXNativeTarget "SmartShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8391E1371A032D490010E4DB /* Debug */,
+				8391E1381A032D490010E4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8391E0F91A032D480010E4DB /* Project object */;
+}
