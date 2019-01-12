@@ -7,7 +7,7 @@
         <!--View Controller - Smart Shop-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController title="Smart Shop" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Smart Shop" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController" customModule="SmartShop">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -64,7 +64,7 @@
         <!--Capture View Controller-->
         <scene sceneID="FZG-tI-7fd">
             <objects>
-                <viewController id="s65-Zx-mGa" customClass="CaptureViewController" sceneMemberID="viewController">
+                <viewController id="s65-Zx-mGa" customClass="CaptureViewController" sceneMemberID="viewController" customModule="SmartShop">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uzj-T5-r6O"/>
                         <viewControllerLayoutGuide type="bottom" id="Erq-dC-Ai2"/>
@@ -83,7 +83,7 @@
         <!--Item View Controller - List-->
         <scene sceneID="HMg-xm-t0q">
             <objects>
-                <viewController id="ZSU-uS-CdB" customClass="ItemViewController" sceneMemberID="viewController">
+                <viewController id="ZSU-uS-CdB" customClass="ItemViewController" sceneMemberID="viewController" customModule="SmartShop">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zo3-eo-zwu"/>
                         <viewControllerLayoutGuide type="bottom" id="wcz-7a-fk2"/>
@@ -141,7 +141,7 @@
         <!--Info View Controller - Item-->
         <scene sceneID="Jn7-Zg-nKF">
             <objects>
-                <viewController id="xnU-bM-GtT" customClass="InfoViewController" sceneMemberID="viewController">
+                <viewController id="xnU-bM-GtT" customClass="InfoViewController" sceneMemberID="viewController" customModule="SmartShop">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4Cl-hu-gzn"/>
                         <viewControllerLayoutGuide type="bottom" id="BGU-ZY-cRi"/>
